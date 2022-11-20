@@ -1,0 +1,80 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <listener>
+  	<listener-class>webproject7.MyListner</listener-class>
+  </listener>
+  <servlet>
+  	<servlet-name>Openaccount</servlet-name>
+  	<display-name>Openaccount</display-name>
+  	<description></description>
+  	<servlet-class>webproject7.Openaccount</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Loginaccount</servlet-name>
+  	<display-name>Loginaccount</display-name>
+  	<description></description>
+  	<servlet-class>webproject7.Loginaccount</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Deposite</servlet-name>
+  	<display-name>Deposite</display-name>
+  	<description></description>
+  	<servlet-class>webproject7.Deposite</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Withdraw</servlet-name>
+  	<display-name>Withdraw</display-name>
+  	<description></description>
+  	<servlet-class>webproject7.Withdraw</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Balance</servlet-name>
+  	<display-name>Balance</display-name>
+  	<description></description>
+  	<servlet-class>webproject7.Balance</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logoutaccount</servlet-name>
+  	<display-name>Logoutaccount</display-name>
+  	<description></description>
+  	<servlet-class>webproject7.Logoutaccount</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MyProfile</servlet-name>
+  	<display-name>MyProfile</display-name>
+  	<description></description>
+  	<servlet-class>webproject7.MyProfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Openaccount</servlet-name>
+  	<url-pattern>/Openaccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Loginaccount</servlet-name>
+  	<url-pattern>/Loginaccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Deposite</servlet-name>
+  	<url-pattern>/Deposite</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Withdraw</servlet-name>
+  	<url-pattern>/Withdraw</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Balance</servlet-name>
+  	<url-pattern>/Balance</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logoutaccount</servlet-name>
+  	<url-pattern>/Logoutaccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MyProfile</servlet-name>
+  	<url-pattern>/MyProfile</url-pattern>
+  </servlet-mapping>
+</web-app>

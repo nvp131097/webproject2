@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+body
+{
+	 background-image: url("background1.jpg");
+	 background-size: cover;
+}
+
+div
+{
+	text-align: center;
+	 /* width: 300px;
+	 border: 5px double #d81159;
+	 padding: 50px;
+	 margin: auto; */
+	 
+	
+}
+
+p
+{
+	color:red;
+}
+
+p1
+{
+	color:blue;
+}
+
+ 
